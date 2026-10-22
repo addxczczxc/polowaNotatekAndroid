@@ -17,8 +17,7 @@ public class Notatka {
     @Override
     public String toString() {
         return
-                "tytulNotatki :'" + tytulNotatki  +
-                ", trescNotatki :'" + trescNotatki + '\''
-                ;
+                 tytulNotatki +
+                        "\n " + trescNotatki;
     }
 }
